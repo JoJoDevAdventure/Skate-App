@@ -93,7 +93,7 @@ extension MyPhotosViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if indexPath.row == myPhotos.count + 1 {
+        if indexPath.row == myPhotos.count {
             //did selected the add button
         } else {
             //did tap a photo
